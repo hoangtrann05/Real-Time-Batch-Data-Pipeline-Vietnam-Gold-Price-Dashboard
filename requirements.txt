@@ -1,0 +1,32 @@
+# Core Python dependencies
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
+pyyaml==6.0.2
+python-dotenv==1.0.1
+
+# Database
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+
+# Stream Processing
+pyspark==3.5.2
+confluent-kafka==2.4.0
+
+# Orchestration
+apache-airflow==2.9.2
+apache-airflow-providers-postgres==5.7.1
+apache-airflow-providers-apache-spark==4.2.0
+
+# Data Validation / Monitoring
+great-expectations==0.18.12
+
+# Visualization
+streamlit==1.38.0
+matplotlib==3.9.2
+plotly==5.23.0
+
+
+# Utility
+tqdm==4.66.5
+loguru==0.7.2
